@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source files\Game Design">
+      <UniqueIdentifier>{6276cfcb-b622-40b7-ab0b-97d577cda2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Design Classes">
+      <UniqueIdentifier>{8faa63e7-5851-4ab1-b852-56813fd7dbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Design">
+      <UniqueIdentifier>{7ce9a51c-e569-4c95-b0b4-f34ddc1099bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{3f192975-6d00-4fc9-9ab9-eeac9ff7fe39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Interface">
+      <UniqueIdentifier>{489e5763-5eaf-45e4-8d5e-f004d8072b7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Design Classes\SingletonBase.h">
+      <Filter>Header Files\Design Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Design\Game.h">
+      <Filter>Header Files\Game Design</Filter>
+    </ClInclude>
+    <ClInclude Include="stdh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Design\GameDefine.h">
+      <Filter>Header Files\Game Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Design\StageLoad.h">
+      <Filter>Header Files\Game Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Design\StageMenu.h">
+      <Filter>Header Files\Game Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIManager.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIWindow.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIBase.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIText.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIMenu.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIButton.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIRoomSettings.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UICheckBox.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIEditBox.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIGame.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Design\StageGame.h">
+      <Filter>Header Files\Game Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIGameField.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\UIMessageBox.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="OXGame.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Design\Game.cpp">
+      <Filter>Source files\Game Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Design\StageLoad.cpp">
+      <Filter>Source files\Game Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Design\StageMenu.cpp">
+      <Filter>Source files\Game Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIManager.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIBase.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIText.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIMenu.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIButton.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIRoomSettings.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UICheckBox.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIEditBox.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIGame.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Design\StageGame.cpp">
+      <Filter>Source files\Game Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIGameField.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\UIMessageBox.cpp">
+      <Filter>Source files\Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

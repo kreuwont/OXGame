@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+#Compiled logs
+*.log
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+
+#Compiled debug information
+*.idb
+*.pdb
